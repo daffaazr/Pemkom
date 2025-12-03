@@ -3,7 +3,7 @@ import numpy as np
 
 
 st.sidebar.title('Kelompok 4')
-st.sidebar.image('https://drive.google.com/file/d/1EpyTNpZquEz2ePuugxuMt5Zipe58eDRj/view?usp=sharing', width = 120)
+st.sidebar.image('2wCEAAkGBxMTEhUTExMWFhUXGBoWFxgXGBoYFxoYGBoXFxgYGBgYHSggGholHhgVITEiJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGi0lHx8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLf', width = 120)
 page =  st.sidebar.selectbox('Pilih Halaman',['Crt','Crtt','Crrttt'])
 
 st.markdown("""
