@@ -4,5 +4,5 @@ import numpy as np
 
 
 st.set_page_config()
-st.Header('Pengujian Hipotesis')
+st.header('Pengujian Hipotesis')
 st.tabs('ABC','BCD','DEF')
