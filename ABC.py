@@ -5,6 +5,14 @@ import numpy as np
 st.sidebar.title('KONTOL')
 page =  st.sidebar.selectbox('Pilih Halaman',['Crt','Crtt','Crrttt'])
 
+st.markdown("""
+<style>
+body {
+    background-color: #f7f9fc;
+}
+</style>
+""", unsafe_allow_html=True)
+
 card = """
 <div style="
     background-color:white;
