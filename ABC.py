@@ -50,6 +50,3 @@ elif page == 'Uji Rata-rata 2 Sampel Dependen':
   st.header('Uji Rata-rata 2 Sampel Dependen')
 elif page == 'Uji Kesamaan Varians':
   st.header('Uji Kesamaan Varians')
-
-st.header('Pengujian Hipotesis')
-Tab1, Tab2, Tab3 = st.tabs(['ABC','BCD','DEF'])
