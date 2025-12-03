@@ -2,7 +2,8 @@ import streamlit as st
 import numpy as np
 
 
-st.sidebar.title('KONTOL')
+st.sidebar.title('Kelompok 4')
+st.sidebar.image('Ghabu.png', width = 120)
 page =  st.sidebar.selectbox('Pilih Halaman',['Crt','Crtt','Crrttt'])
 
 st.markdown("""
