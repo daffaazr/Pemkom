@@ -41,7 +41,7 @@ if page == 'HOME':
   with tab1:
     st.write('Pengujian hipotesis adalah...')
   with tab2:
-    st.image("https://drive.google.com/file/d/1EpyTNpZquEz2ePuugxuMt5Zipe58eDRj/view?usp=drive_link", caption = "Flowchart", width = 1200)
+    st.image("https://drive.google.com/file/d/1EpyTNpZquEz2ePuugxuMt5Zipe58eDRj/view?usp=drive_link", caption = "Flowchart", use_container_width=True)
   
 
 elif page == 'Uji Proporsi':
