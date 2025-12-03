@@ -37,8 +37,7 @@ st.sidebar.caption('@Bysigweh')
 if page == 'HOME':
   st.header('Pengujian Hipotesis'),
   Tab1, Tab2, Tab3 = st.tabs(['...','Flowchart','DEF']),
-  img_url = f"https://drive.google.com/uc?export=view&id=1EpyTNpZquEz2ePuugxuMt5Zipe58eDRj",
-  st.image(img_url, caption="Gambar dari Google Drive", use_container_width=True)
+  
 
 elif page == 'Uji Proporsi':
   st.header('Uji Proporsi')
