@@ -35,9 +35,11 @@ st.sidebar.caption('@Bysigweh')
 
 
 if page == 'HOME':
-  st.header('Pengujian Hipotesis'),
+  st.header('Pengujian Hipotesis')
   st.write('Selamat datang di dashboard kelompok 4')
-  Tab1, Tab2, Tab3 = st.tabs(['...','Flowchart','DEF']),
+  tab1, tab2, tab3 = st.tabs(['Pengertian','Flowchart','DEF'])
+  with tab1:
+    st.write('Pengujian hipotesis adalah...')
   
 
 elif page == 'Uji Proporsi':
