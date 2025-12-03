@@ -5,4 +5,4 @@ import numpy as np
 
 st.set_page_config()
 st.header('Pengujian Hipotesis')
-st.tabs('ABC','BCD','DEF')
+'Tab1', 'Tab2', 'Tab3' = st.tabs('ABC','BCD','DEF')
