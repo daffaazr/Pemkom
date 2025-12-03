@@ -40,6 +40,8 @@ if page == 'HOME':
   tab1, tab2, tab3 = st.tabs(['Pengertian','Flowchart','DEF'])
   with tab1:
     st.write('Pengujian hipotesis adalah...')
+  with tab2:
+    st.image("https://drive.google.com/uc?export=view&id=1EpyTNpZquEz2ePuugxuMt5Zipe58eDRj", caption = "Flowchart", width = 150)
   
 
 elif page == 'Uji Proporsi':
