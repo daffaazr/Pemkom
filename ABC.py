@@ -36,6 +36,7 @@ st.sidebar.caption('@Bysigweh')
 
 if page == 'HOME':
   st.header('Pengujian Hipotesis'),
+  st.write('Selamat datang di dashboard kelompok 4')
   Tab1, Tab2, Tab3 = st.tabs(['...','Flowchart','DEF']),
   
 
